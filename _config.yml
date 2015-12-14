@@ -1,7 +1,7 @@
 name: Punzai
 favicon: null
-layout_spectrum: 0.6404878192115575
-typography_spectrum: 0.9029470938257873
+layout_spectrum: 0.87537
+typography_spectrum: 0
 cta:
   domain: null
   bucket: null
@@ -16,11 +16,11 @@ opengraph:
   appId: null
 color:
   brandColors:
-    - '#A690A4'
-    - '#B68F9D'
-    - '#C8ACAB'
-    - '#FBB9BF'
-    - '#E376B7'
+    - '#fefefe'
+    - '#292929'
+    - '#669b8f'
+    - '#a6cfeb'
+    - '#e8423d'
   brandStrength: 0.5800576519686729
   lightness: 0.46168879489414394
   saturation: 0.535048360703513
