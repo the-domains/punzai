@@ -1,28 +1,40 @@
-name: Punzai
 favicon: null
-layout_spectrum: 0.87537
-typography_spectrum: 0
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Punzai
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#fefefe'
-    - '#292929'
-    - '#669b8f'
-    - '#a6cfeb'
-    - '#e8423d'
-  brandStrength: 0.5800576519686729
-  lightness: 0.46168879489414394
-  saturation: 0.535048360703513
-  rhythmicContrast: 0.8083023780491203
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.8680037
+  brandStrength: 0.5079291
+  lightness: 0.4616888
+  brandColors:
+    - '#FFFFFF'
+    - '#A8A8A8'
+    - '#000000'
+    - '#515151'
+    - '#FDF050'
+  rhythmicContrast: 0.8083024
+typography_spectrum: 0.1436567
+layout_spectrum: 0.4878731
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
